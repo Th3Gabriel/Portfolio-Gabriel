@@ -1,0 +1,45 @@
+:root {
+    --gold-light: #D4AF37;
+    --gold: #FFD700;
+    --black: #000000;
+    --dark-gray: #2C2C2C;
+    --silver: #C0C0C0;
+
+}
+
+/* Adicione seu CSS aqui ou link um arquivo externo */
+body {
+    font-family: "Inter", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+
+#menu {
+    margin-bottom: 20px;
+}
+
+#sobremim,
+#img_Gabriel {
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: #fff;
+}
+
+#projetos,
+#contato {
+    margin-bottom: 20px;
+}
