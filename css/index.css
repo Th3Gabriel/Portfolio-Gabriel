@@ -74,10 +74,38 @@ main {
     background-color: var(--black);
 }
 
-#projetos,
-#contato {
-    margin-bottom: 20px;
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+li {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, var(--gold-light) 0%, var(--gold-light) 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: background-position 0.4s ease-out;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li a:hover {
+    background-position: left;
+}
+
+
+
 
 footer {
     background-color: var(--dark-gray);
